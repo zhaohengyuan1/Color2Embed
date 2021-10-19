@@ -21,10 +21,10 @@ cd Color2Embed
 
 2. Pretrained models should be Downloaded in `./experiments/` folder. The model will be uploaded.
 
-3. Run the test.gray2color.py
+3. I have collected some test datasets used in previous papers. You can check it in the path `./test_datasets`. When you use the file `test_gray2color.py` to test, you need to edit the input file path and pretrained weights path in this file.
 
 ```
-python test.gray2color.py
+python test_gray2color.py
 ```
 
 ## Train
@@ -36,11 +36,13 @@ cd data
 sh prepare_data.sh
 ```
 
-1. Run the train.sh
+2. Run the train.sh. You can check `train.py` for more implementation details.
 
 ```
 sh train.sh
 ```
+
+
 
 ## Results
 
@@ -64,3 +66,5 @@ If you find our work is useful, please kindly cite it.
 }
 ```
 
+## Contact
+If you have any question, please email hubylidayuan@gmail.com.
