@@ -1,0 +1,1 @@
+python prepare_data.py --out ../train_datasets/ImageNet_train_lmdb --n_worker 20 --size 256 /mnt/hyzhao/Documents/datasets/color_benchmark/image/ILSVRC2012_img/train
