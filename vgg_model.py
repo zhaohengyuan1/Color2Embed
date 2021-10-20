@@ -106,7 +106,7 @@ class vgg19(nn.Module):
 
 class vgg19_class_fea(nn.Module):
     
-    def __init__(self, pretrained_path = './DEVC/data/vgg19-dcbb9e9d.pth', require_grad = False):
+    def __init__(self, pretrained_path = './experiments/vgg19-dcbb9e9d.pth', require_grad = False):
         super(vgg19_class_fea, self).__init__()
         self.vgg_model = models.vgg19()
         print('----load pretrained vgg19----')

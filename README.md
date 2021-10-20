@@ -31,7 +31,7 @@ git clone https://github.com/zhaohengyuan1/Color2Embed.git
 cd Color2Embed
 ```
 
-2. [Pretrained models](https://drive.google.com/file/d/15qgn3aSzviBE4tW6PaCx4c_syiKMBVir/view?usp=sharing) should be placed in `./experiments/` folder. 
+2. [Pretrained models](https://drive.google.com/file/d/15qgn3aSzviBE4tW6PaCx4c_syiKMBVir/view?usp=sharing) should be placed in `./experiments/` folder. [VGG model](https://drive.google.com/file/d/1eMiUDeO_YGOu3RfyQKeAkKR5rgvH5a3d/view?usp=sharing) also can be downloaded.
 
 3. I have collected some test datasets used in previous papers. You can check it in the path `./test_datasets`. When you use the file `test_gray2color.py` to test, you need to edit the input file path and pretrained weights path in this file.
 
