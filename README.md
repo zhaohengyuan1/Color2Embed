@@ -7,6 +7,18 @@ This project is the simple implementation of Color2Embed. You can use it in your
   <img src="./misc/fig1.png">
 </p>
 
+Other recommended projects:
+
+[Temporally-Consistent-Video-Colorization](https://github.com/lyh-18/TCVC-Temporally-Consistent-Video-Colorization)
+
+[Deep Exemplar-based Colorization](https://github.com/msracver/Deep-Exemplar-based-Colorization)
+
+[Deep Video Prior](https://github.com/ChenyangLEI/deep-video-prior)
+
+[Learning Blind Video Temporal Consistency](https://github.com/phoenix104104/fast_blind_video_consistency)
+
+[Swapping Autoencoder](https://github.com/taesungp/swapping-autoencoder-pytorch)
+
 ## Dependencies
 
 - Python >= 3.6 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
@@ -54,6 +66,7 @@ sh train.sh
   <img src="./misc/fig4.png">
 </p>
 
+## Citation
 If you find our work is useful, please kindly cite it.
 ```
 @misc{zhao2021color2embed,
