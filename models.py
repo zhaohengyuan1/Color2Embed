@@ -6,6 +6,25 @@ import torch.nn.functional as F
 
 from vgg_model import vgg19
 
+class DoubleConv(nn.Module):
+    """(convolution => [BN] => ReLU) * 2"""
+
+    def __init__(self, in_channels, out_channels, mid_channels=None):
+        super().__init__()
+        if not mid_channels:
+            mid_channels = out_channels
+        self.double_conv = nn.Sequential(
+            nn.Conv2d(in_channels, mid_channels, kernel_size=3, padding=1),
+            nn.BatchNorm2d(mid_channels),
+            nn.LeakyReLU(0.1, True),
+            nn.Conv2d(mid_channels, out_channels, kernel_size=3, padding=1),
+            nn.BatchNorm2d(out_channels),
+            nn.LeakyReLU(0.1, True)
+        )
+
+    def forward(self, x):
+        x = self.double_conv(x)
+        return x
 
 class ResBlock(nn.Module):
     """(convolution => [BN] => ReLU) * 2"""
