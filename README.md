@@ -1,7 +1,7 @@
 # Color2Embed
 Color2Embed: Fast Exemplar-Based Image Colorization using Color Embeddings [Paper](https://arxiv.org/abs/2106.08017)
 
-This project is the simple implementation of Color2Embed. You can use it in your own projects. You can help to star this repo if you think this repo is helpful.
+This project is the simple implementation of Color2Embed. This paper maybe not be submitted to any conferences and journals and you can use it in your projects. You can help to star this repo if you think this repo is helpful.
 
 <p align="left">
   <img src="./misc/fig1.png">
