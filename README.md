@@ -66,18 +66,6 @@ sh train.sh
   <img src="./misc/fig4.png">
 </p>
 
-## Citation
-If you find our work is useful, please kindly cite it.
-```
-@misc{zhao2021color2embed,
-      title={Color2Embed: Fast Exemplar-Based Image Colorization using Color Embeddings}, 
-      author={Hengyuan Zhao and Wenhao Wu and Yihao Liu and Dongliang He},
-      year={2021},
-      eprint={2106.08017},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
 
 ## Contact
 If you have any question, please email hubylidayuan@gmail.com.
